@@ -1,0 +1,24 @@
+{
+    "name": "muraligk/chuck-norris-jokes",
+    "description": "Generates Random Chuck Norris Jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Murali Krishna Gurunathan",
+        "email": "muraligk@yahoo.com"
+    }],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MuraliGK\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MuraliGK\\ChuckNorrisJokes\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4"
+    }
+}
